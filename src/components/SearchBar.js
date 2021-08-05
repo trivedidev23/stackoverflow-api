@@ -17,9 +17,9 @@ const SearchBar = () => {
             tagged: term,
           },
           headers: {
-            client_id: process.env.REACT_APP_API_USER,
-            client_secret: process.env.REACT_APP_API_SECRET,
-            key: process.env.REACT_APP_API_KEY,
+            client_id: REACT_APP_API_USER,
+            client_secret: REACT_APP_API_SECRET,
+            key: REACT_APP_API_KEY,
           },
         }
       );
